@@ -16,7 +16,7 @@ body{
     background-color: #121212;
 }
 .form-container {
-	background-image: linear-gradient(to bottom, #050c5b 0%, #05305b  51%, #050c5b  100%);
+	background-color:black;
 	padding: 30px;
     margin: auto;
     margin-top: 50px;
