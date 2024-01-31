@@ -150,7 +150,7 @@ Html,body
     height:560.5px;
     width:75%;
     margin-top:10px;
-    background-image: linear-gradient(to bottom, #050c5b 0%, #01061e  51%, #05305b  100%);
+    background-image: linear-gradient(to bottom, #060b51 0%, #020511  51%, black  100%);
     border-radius: 10px;
 }
 .right-top{
@@ -234,7 +234,7 @@ Html,body
     column-gap: 8px;
     height: 80px;
     border-radius: 10px;
-    background-color: #06091c;
+    background-color: #121212;
     border: none;
     cursor: pointer;
     padding: 0px;
@@ -305,10 +305,11 @@ Html,body
     height: 180px;
     width: 180px;
     margin:10px;
-    border: 2px solid rgb(255, 255, 255);
     padding: 0;
     cursor: pointer;
     transition: transform 0.3s ;
+    background-color: #121212;
+    border-radius: 6px;
 }
 .image-play{
     height: 40px;
@@ -332,8 +333,11 @@ Html,body
 }
  .cardimg{
     height: 130px;
-    width: 100%;
-    object-fit: cover;   
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .right-bottom-bottom .card h4,h5{
     padding: 1px 8px;
@@ -350,7 +354,7 @@ Html,body
     justify-content: center;
     padding-bottom: 5px;
     padding-top: 5px;
-    background-color: black;
+    background-color: #121212 ;
 }
 .bn:hover{
     color:rgb(0,255,106);
