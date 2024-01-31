@@ -37,8 +37,9 @@ body{
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
-	border: 2px solid #ccc;
+	border: 2px solid white;
 	border-radius: 5px;
+    color: black;
 }
 .form{
     color: white;

@@ -29,6 +29,18 @@ Html,body
     display: flex;
     flex-direction:column;
 }
+.imag{
+    height:30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.imag img{
+    height: 100%;
+}
+.imag:hover{
+    cursor: pointer;
+    transform:scale(0.9);
+}
 .left .left-top{
     height:120px;
     width:100%;
@@ -38,7 +50,7 @@ Html,body
     background-color:#121212;
 }
 .left .left-top button{
-    padding: 15px 20px;
+    padding: 10px 10px;
     display: flex;
     width: 100%;
     gap:10%;
@@ -163,11 +175,12 @@ Html,body
     padding: 0 1vw;
 }
 .right-top .right-top-left i{
-    font-size: 25px;
-    color: #5f5f5f;
-    cursor: pointer;
+    font-size: 30px;
+    color: white;
     border: none;
     outline: none;
+    background-color: #121212;
+    border-radius: 50%;
 }
 .right-top .right-top-right button{
     font-size: 15px;
